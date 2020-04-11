@@ -35,7 +35,7 @@ namespace Task6.MiddleWare
                 string path = context.Request.Path;
                 string method = context.Request.Method; 
                 string queryString = context.Request.QueryString.ToString();
-                string bodyStr = "";
+                string bodyStr = "https://www.youtube.com/watch?v=5GbSKaFf8Uc";
 
                 using (StreamReader reader = new StreamReader(context.Request.Body, Encoding.UTF8, true, 1024, true))
                 {
